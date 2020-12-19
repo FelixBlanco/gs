@@ -1,0 +1,221 @@
+<app-nav-superior></app-nav-superior>
+<div class="row mt-2">
+  <div class="col-md-8">    
+    
+    <app-navbar-lateral-uno [isActiveDatos]="isActiveDatos"></app-navbar-lateral-uno>
+
+    <div class="cont-menu bg-white p-3" style="height: 100vh;">
+      <div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="p-2"><b>Cuenta N. XXXX</b></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Tipo de plan</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>
+          <div class="col-md-3">
+            <mat-form-field appearance="legacy" class="input-mx" appearance="fill">
+              <mat-label>Nombre de plan</mat-label>
+              <input matInput placeholder="Ingrese nombre">
+              <mat-icon matSuffix>edit</mat-icon>                      
+            </mat-form-field>                      
+          </div>
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Sucursal</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>               
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Fecha de alta</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Estadp de la cuenta</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije un estado</option> 
+              </select>
+            </mat-form-field>            
+          </div> 
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Jefe de equipo</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>   
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Productor</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>                          
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Ultimo pago</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div> 
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Ultima modificacion</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div> 
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Vigencia</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>  
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Descongelamiento</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>                                    
+        </div>
+        
+        <!-- Medio de pago -->
+        <h3><b>Medio de pago</b></h3>
+
+        <div class="row">
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Medio de pago</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Fecha de cobro</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>  
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Vencimiento de pago</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>                  
+        </div>
+
+        <h3><b>Domicilio de cobro</b></h3>
+        <div class="row">
+          <div class="col-md-6">
+            <mat-form-field appearance="legacy" class="input-mx" appearance="fill">
+              <mat-label>Domicilio</mat-label>
+              <input matInput placeholder="Ingrese la calle y numero">
+              <mat-icon matSuffix>edit</mat-icon>                      
+            </mat-form-field>          
+          </div>
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Provincia</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>  
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Localidad</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>                  
+        </div>        
+        <div class="row">
+          <div class="col-md-3">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Barrio</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>  
+          <div class="col-md-3">
+            <mat-form-field appearance="legacy" class="input-mx" appearance="fill">
+              <mat-label>Codigo postal</mat-label>
+              <input matInput placeholder="Ingreso uno">
+              <mat-icon matSuffix>edit</mat-icon>                      
+            </mat-form-field>            
+          </div> 
+          <div class="col-md-6">
+            <mat-form-field class="input-mx" appearance="fill">
+              <mat-label>Nota</mat-label>
+              <select matNativeControl required>
+                <option value="volvo">Elije uno</option> 
+              </select>
+            </mat-form-field>            
+          </div>                           
+        </div>          
+      </div>
+    </div>
+     
+  </div>
+
+  <!-- <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-11">
+        <div class="p-3 bg-white">
+          <h3><b>Adherentes</b></h3>
+          <table class="table">
+            <tr>
+              <td>nombre y apellido</td>
+              <td>parentezco</td>              
+            </tr>
+            <tr>
+              <td>nombre y apellido</td>
+              <td>parentezco</td>              
+            </tr>                  
+            <tr>
+              <td>nombre y apellido</td>
+              <td>parentezco</td>              
+            </tr>
+            <tr>
+              <td>nombre y apellido</td>
+              <td>parentezco</td>              
+            </tr>                                    
+          </table>                                                           
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>

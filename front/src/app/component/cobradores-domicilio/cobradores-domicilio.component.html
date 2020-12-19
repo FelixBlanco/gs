@@ -1,0 +1,23 @@
+
+<app-nav-superior></app-nav-superior>
+
+<div class="row mt-1">
+  <div class="col-md-8">
+    <div>
+      <div class="bg-white p-2">
+        <h2 class="p-2"><b>Cobradores a Domicilio</b></h2>
+        <table class="table">
+          <tr *ngFor="let lista_cuenta of lista_cuentas" (click)="verLista(lista_cuenta)"> 
+            <td>{{lista_cuenta.user}}</td>
+            <td>{{lista_cuenta.codigo}}</td>              
+          </tr>                            
+        </table>  
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="bg-white p-3">
+      <h2 class="p-2"><b>Detalles</b></h2>       
+    </div>
+  </div>
+</div>

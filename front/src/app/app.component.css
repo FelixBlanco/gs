@@ -1,0 +1,22 @@
+.nav-header{
+  padding: 0;
+  background-color: #8fe2d3;
+}
+
+.profile-element { background-color: #d2d3d5; }
+
+.navbar-default{ background-color: white; }
+
+.navbar-default li { background-color: #d2d3d5; }
+
+.aqua-bg { background-color: #eaeaea;}
+
+.transformed{ transform: rotate(90deg); }
+
+.list{
+  background-color: #96989a; 
+  width: 100px;
+  height: 59px;
+  padding: 5%;
+ }
+ 

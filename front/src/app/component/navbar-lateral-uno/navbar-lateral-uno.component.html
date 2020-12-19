@@ -1,0 +1,11 @@
+<div class="navbar-lateral-uno">
+  <div class="main-nav">
+    <ul class="nav-vetical">
+      <a [routerLink]="['/cuentas/numero-de-cuenta/datos']" routerLinkActive="active-link" [class]="{'active-link' : isActiveDatos}"><li>Datos</li></a>
+      <a [routerLink]="['/cuentas/numero-de-cuenta/adherentes']" routerLinkActive="active-link" *ngIf="isNuevo"><li>Adherentes</li></a>
+      <a [routerLink]="['/cuentas/numero-de-cuenta/adicionales']" routerLinkActive="active-link" *ngIf="isNuevo"><li>Adicionales</li></a>      
+      <a [routerLink]="['/cuentas/numero-de-cuenta/pagos']" routerLinkActive="active-link" *ngIf="isNuevo"><li>Pagos</li></a>      
+      <a [routerLink]="['/cuentas/numero-de-cuenta/historial']" routerLinkActive="active-link" *ngIf="isNuevo"><li>Historial</li></a>
+    </ul>
+  </div>               
+</div>

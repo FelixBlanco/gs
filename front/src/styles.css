@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+#wrapper { padding: 0; }
+
+mat-expansion-panel .mat-expansion-panel-body{ 
+  background-color: white; 
+  padding: 0 2px 12px; }
+
+mat-accordion mat-expansion-panel .mat-expansion-panel { 
+  border-radius: 0px;
+  box-shadow : none
+}
+
+mat-form-field-flex {
+  background-color: white;
+}
+
+input, select {
+  border-style: dotted;
+}
+
+.input-mx{ 
+  width: 100%; 
+  background-color: white;  
+}
+
+.cont-menu{ margin-left: 45px; }
+
+
+/* 
+  Menu laterales
+   */
+.nav-vetical li {  
+  background-color: #eaeaea;
+} 
+
+.nav-vetical-2 li {  
+  background-color: #eaeaea;
+}
+
+.active-link > li{
+  background-color: white;
+  color: black;
+}   
+
+/* tab Supereior */
+.tab-superior{  
+  background-color: #eaeaea;
+  border: 1px solid #eaeaea;  
+  width: 152px;
+  padding: 8px;
+  font-weight: 500;  
+}
+
+.tab-superior-active{
+  background-color: white;  
+  border: 1px solid white;  
+  width: 152px;
+  padding: 8px;
+  font-weight: 500;    
+}

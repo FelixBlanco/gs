@@ -1,0 +1,11 @@
+mat-expansion-panel{
+  background-color: #d2d3d5;
+  border: 1px solid #d2d3d5;      
+  margin-top: 0;
+  margin-bottom: 0;  
+}
+
+#mat-expansion-panel-anidado{
+  background-color: #d2d3d5;
+  border: 1px solid #d2d3d5;  
+}

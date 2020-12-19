@@ -1,0 +1,28 @@
+.navbar-lateral-uno{
+  width: auto;  
+}
+
+.nav-vetical{
+  padding-left: 24px;
+}
+.main-nav {
+  width:100vh;    
+  height:45px;
+  position: absolute;  
+  -webkit-transform-origin: left top;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
+  text-align: center;
+}
+
+.main-nav ul a{
+  color: black;
+}
+
+.nav-vetical li {      
+  border: none;
+  margin-right: 1px;
+  list-style: none;
+  line-height: 45px;
+  float: right;
+  width: 100px;  
+}

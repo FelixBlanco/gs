@@ -1,0 +1,38 @@
+<mat-accordion>
+  <div *ngFor="let acordeon of acordeones">
+    <mat-expansion-panel  [expanded]="acordeon.expanded" *ngIf="acordeon.isShow" (click)="navFalseClose(acordeon)"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title> 
+          {{acordeon.title}}  {{acordeon.data}} 
+          <!-- <span *ngIf="acordeon.withData">  </span>               -->
+        </mat-panel-title>
+      </mat-expansion-panel-header>          
+      <mat-list>
+        <div *ngFor="let acordeonList of acordeon.list_nav; index as i">
+          <a         
+            [routerLink]="[acordeonList.url]" 
+            routerLinkActive="router-link-active" 
+            ><mat-list-item>{{acordeonList.title}}</mat-list-item></a>   
+            <mat-divider></mat-divider>                                   
+        </div>
+
+        <div *ngIf="acordeon.isShowNavTwo">
+          <div *ngFor="let acordeonListTwo of acordeon.list_nav_two; index as i">
+            <a         
+              [routerLink]="[acordeonListTwo.url]" 
+              routerLinkActive="router-link-active" 
+              ><mat-list-item>{{acordeonListTwo.title}}</mat-list-item></a>   
+              <mat-divider></mat-divider>                                   
+          </div>
+        </div>
+
+
+        <div>
+          
+        </div>
+
+      </mat-list>          
+    </mat-expansion-panel>           
+  </div>
+</mat-accordion>    
